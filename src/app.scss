@@ -1,6 +1,6 @@
 /* variabili */
 $colorText: #fff;
-
+$roboto: 'Roboto', sans-serif;
 /* reset */
 *{
     margin: 0;
@@ -18,14 +18,62 @@ $colorText: #fff;
             background-color: darkblue;
             padding: 30px;
             text-align: center;
+            font-family: $roboto;
 
             //title header
             &-title{
                 color: $colorText;
                 padding-bottom: 20px;
+            }// end header-title
+
+            // header-descriptio
+            &-description{
+                color: $colorText;
             }
 
         } //end header-container
+
+        //main-container
+        .main-container{
+            padding: 30px;
+            width: 100%;
+            background-color: #ccc;
+
+            .main-title{
+                padding: 5px;
+                width: 100px;
+                border-radius: 5px;
+                background-color: darkblue;
+                color: $colorText;
+                font-family: $roboto;
+            }//end .main-title
+            
+            //content
+            .content{
+                margin-top: 50px;
+                
+                //content-title
+                &-title{
+                    text-align: center;
+                    padding: 5px;
+                    width: 100%;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    color: $colorText; 
+                }//end content-title
+
+                //content-description
+                &-description{
+                    margin-top: 15px;
+                    font-style: italic;
+                    font-size: 18px;
+                    letter-spacing: 3px;
+                    font-family: 'Ballet', cursive;
+                }
+
+
+            }//end content
+        }// end main-container
     }// end container
 
 

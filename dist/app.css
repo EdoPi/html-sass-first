@@ -14,8 +14,43 @@
   background-color: darkblue;
   padding: 30px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 * .container .header-title {
   color: #fff;
   padding-bottom: 20px;
+}
+* .container .header-description {
+  color: #fff;
+}
+* .container .main-container {
+  padding: 30px;
+  width: 100%;
+  background-color: #ccc;
+}
+* .container .main-container .main-title {
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+* .container .main-container .content {
+  margin-top: 50px;
+}
+* .container .main-container .content-title {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: #fff;
+}
+* .container .main-container .content-description {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: "Ballet", cursive;
 }
