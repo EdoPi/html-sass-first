@@ -1,0 +1,21 @@
+/* variabili */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+* .container {
+  width: 900px;
+  margin: 0 auto;
+}
+* .container .header {
+  width: 100%;
+  background-color: darkblue;
+  padding: 30px;
+  text-align: center;
+}
+* .container .header-title {
+  color: #fff;
+  padding-bottom: 20px;
+}
